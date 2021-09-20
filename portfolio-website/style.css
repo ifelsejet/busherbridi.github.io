@@ -1,0 +1,79 @@
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+h1,h3{
+  padding:1em;
+}
+
+.center{
+  min-width: min-content; 
+  width: 400px;
+  /* display: inline-block; */
+  margin: 0 auto;
+  /* padding-top: 25%; */
+  text-align: center;
+}
+#namePlate{
+  padding-top: 25%;
+}
+#navButtons{
+  padding-top: 3%;
+}
+#experience{
+  padding-top: 30%;
+  width:910px;
+  /* text-align: justify; */
+  margin: 0 auto;
+}
+#experience .accordion-item{
+  background-color: black;
+  color: white;
+}
+#experience .accordion-button{
+  background-color:black;
+  color:whitesmoke;
+}
+#experience .accordion-button:hover{
+  background-color:grey;
+  color:whitesmoke;
+}
+#experience .accordion-body{
+  text-align: justify;
+}
+
+#education{
+  padding-top: 10%;
+  width: 910px;
+}
+#education .accordion-item{
+  background-color: black;
+  color: white;
+}
+#education .accordion-button{
+  background-color:black;
+  color:whitesmoke;
+}
+#education .accordion-button:hover{
+  background-color:grey;
+  color:whitesmoke;
+}
+#education .accordion-body{
+  text-align: justify;
+}
+/* #menuTabs{
+  padding-top: 25em;
+  font-size: x-large;
+}
+
+#experience{
+  padding-top: 2.5em;
+} */
+
+/* #experienceSection{
+  padding-top: 130em;
+}
+
+#expContainer{
+  padding-top: 65em;
+} */
