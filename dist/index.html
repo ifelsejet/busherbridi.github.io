@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <title>Busher Bridi</title>
+  <script type="module" crossorigin src="/assets/index.6527bce2.js"></script>
+    <link rel="stylesheet" href="/assets/index.5bcba20e.css">
+  </head>
+
+<body>
+  <div id="namePlate" class="center">
+    <h1 class="border border-3 border-white rounded-pill">Busher Bridi </h1>
+  </div>
+  <!-- Buttons -->
+  <div class="container center" id="navButtons">
+    <div class="row">
+      <div class="col">
+        <a href="#experience" class="btn btn-outline-secondary" role="button">Experience</a>
+      </div>
+      <div class="col">
+        <a href="#education" class="btn btn-outline-secondary" role="button">Education</a>
+      </div>
+      <div class="col">
+        <a href="/projects/index.html" class="btn btn-outline-secondary" role="button">Projects</a>
+      </div>
+    </div>
+  </div>
+  <!-- Experience -->
+  <div class="center" id="experience">
+    <h3>Experience</h3>
+    <div class="accordion accordion-flush" >
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <Strong>Research Assistant &nbsp;</Strong> ANDES Lab | Jan 2021 - Present | Merced, California
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+          data-bs-parent="#experience">
+          <div class="accordion-body">
+            <ul>
+              <li>
+                Under the advisement of Prof. Alberto Cerpa, I assisted PhD student Jothi Prasanna Shanmuga Sundaram in
+                developing the software required to run experiments for research regarding ZigBee and LoRa radios: </li>
+              <li>Created Sender-Receiver application in TinyOS to test ZigBee radio throughput on TelosB motes.</li>
+              <li>Modified code in the lower layers of TinyOS to reduce delays for the radio to approach maximum
+                theoretical throughput.</li>
+              <li>Modified the application for different methods of calculating throughput, for example: without
+                acknowledgments from the receiver, and sending next packet after fixed time period vs sending next
+                packed only after acknowledgment is received.</li>
+              <li>Programmed static routing for a line topology in TinyOS for TelosB motes where nodes send confirmed
+                traffic to root.</li>
+              <li>Implemented a version of RNP (Required Number of Packets) that the nodes used to keep track of network
+                health that avoided floating point operations that were not supported by the mote hardware.</li>
+              <li>All nodes collected data regarding its network link including, time to send a packet to root and
+                receive and acknowledgment, and the RNP to the root node.</li>
+              <li>Developed code to run LoRa radio chips to measure throughput between nodes using a Python serial
+                interface.</li>
+              <li>Coded multitude of Python scripts to run operations on data received from TelosB and LoRa nodes to
+                calculate properties of individual nodes as well as other network properties such as average throughput.
+              </li>
+              <li>Converted node data output to human readable format for use in CSV files and Matlab.</li>
+              <li>Developed dual radio prototype for use in field experiments using a Raspberry Pi, TelosB boards, and
+                LoRa radio boards with software to send packets using both or either radios using the respective boards.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <Strong>Director of Engineering &nbsp;</Strong> HackMerced | Jul 2020 - May 2021 | Merced, California
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#experience">
+          <div class="accordion-body">
+            <ul>
+              <li>Promoted to Director of Engineering after one year of working as an engineer.</li>
+              <li>Worked on API security to ensure that only whitelisted IPs are allowed to make requests to avoid
+                overloading the service.</li>
+              <li>Assigned engineering team members detailed tasks on Asana using a SCRUM board to keep track of
+                progress.</li>
+              <li>developed virtual battlepass system for hackathon members to keep track of tasks completed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <Strong>Engineer &nbsp;</Strong> HackMerced | Sept 2019 - Jul 2020 | Merced, California
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#experience">
+          <div class="accordion-body">
+            <ul>
+              <li>Worked on the HackMerced-V website, specifically the emailing list/landing page</li>
+              <li>Made desktop website mobile friendly</li>
+              <li>Ensured security of login page</li>
+              <li>Led workshops to teach hackers AWS and Arduino</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Education -->
+    <div class="center" id="education">
+      <h3>Education</h3>
+    <div class="accordion accordion-flush">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOneOne" aria-expanded="true" aria-controls="collapseOneOne">
+            <Strong>University of California, Merced &nbsp;</Strong> B.S Computer Science and Engineering | Aug 2019 - May 2021 | Merced, California
+          </button>
+        </h2>
+        <div id="collapseOneOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+          data-bs-parent="#education">
+          <div class="accordion-body">
+            <ul>
+              <li>GPA: 3.77</li>
+              <li>Chancellor's Honor List</li>
+              <li>Graduation Honors</li>
+              <br>
+              <h6>Courses</h6>
+              <ul>
+                <li>Parallel Computing</li>
+                <li>Mobile Computing</li>
+                <li>Software Engineering</li>
+                <li>Object Oriented Programming</li>
+                <li>Computer Networks</li>
+                <li>Operating Systems</li>
+                <li>Database Systems</li>
+                <li>Writing for Engineering</li>
+                <li>Computer Architecture</li>
+                <li>Algorithm Design and Analysis</li>
+                <li>Discrete Mathematics</li>
+                <li>Computer Organization</li>
+                <li>Probability and Statistics</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwoTwo" aria-expanded="false" aria-controls="collapseTwoTwo">
+            <Strong>College of the Sequioas &nbsp;</Strong> A.S Engineering, A.S Math, A.S Physics | Aug 2018 - May 2019 | Visalia, California
+          </button>
+        </h2>
+        <div id="collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#education">
+          <div class="accordion-body">
+            <ul>
+              <li>GPA:3.0</li>
+              <br>
+              <h6>Courses</h6>
+              <ul>
+                <li>Statics</li>
+                <li>Calc III</li>
+                <li>Linear Algebra</li>
+                <li>Differential Equations</li>
+                <li>Electromagnetism and Heat</li>
+                <li>Modern Physics</li>
+                <li>Data Structures and Object Oriented Programming</li>
+                <li>Circuit Analysis</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
